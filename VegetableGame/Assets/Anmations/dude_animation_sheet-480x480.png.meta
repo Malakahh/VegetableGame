@@ -1,0 +1,352 @@
+fileFormatVersion: 2
+guid: 60537fbfb72afa642ab2a2ed17c0655a
+timeCreated: 1435229761
+licenseType: Free
+TextureImporter:
+  fileIDToRecycleName:
+    21300000: dude_animation_sheet-480x480_0
+    21300002: dude_animation_sheet-480x480_1
+    21300004: dude_animation_sheet-480x480_2
+    21300006: dude_animation_sheet-480x480_3
+    21300008: dude_animation_sheet-480x480_4
+    21300010: dude_animation_sheet-480x480_5
+    21300012: dude_animation_sheet-480x480_6
+    21300014: dude_animation_sheet-480x480_7
+    21300016: dude_animation_sheet-480x480_8
+    21300018: dude_animation_sheet-480x480_9
+    21300020: dude_animation_sheet-480x480_10
+    21300022: dude_animation_sheet-480x480_11
+    21300024: dude_animation_sheet-480x480_12
+    21300026: dude_animation_sheet-480x480_13
+    21300028: dude_animation_sheet-480x480_14
+    21300030: dude_animation_sheet-480x480_15
+    21300032: dude_animation_sheet-480x480_16
+    21300034: dude_animation_sheet-480x480_17
+    21300036: dude_animation_sheet-480x480_18
+    21300038: dude_animation_sheet-480x480_19
+    21300040: dude_animation_sheet-480x480_20
+    21300042: dude_animation_sheet-480x480_21
+    21300044: dude_animation_sheet-480x480_22
+    21300046: dude_animation_sheet-480x480_23
+    21300048: dude_animation_sheet-480x480_24
+    21300050: dude_animation_sheet-480x480_25
+    21300052: dude_animation_sheet-480x480_26
+  serializedVersion: 2
+  mipmaps:
+    mipMapMode: 0
+    enableMipMap: 1
+    linearTexture: 0
+    correctGamma: 0
+    fadeOut: 0
+    borderMipMap: 0
+    mipMapFadeDistanceStart: 1
+    mipMapFadeDistanceEnd: 3
+  bumpmap:
+    convertToNormalMap: 0
+    externalNormalMap: 0
+    heightScale: .25
+    normalMapFilter: 0
+  isReadable: 0
+  grayScaleToAlpha: 0
+  generateCubemap: 0
+  cubemapConvolution: 0
+  cubemapConvolutionSteps: 8
+  cubemapConvolutionExponent: 1.5
+  seamlessCubemap: 0
+  textureFormat: -1
+  maxTextureSize: 2048
+  textureSettings:
+    filterMode: -1
+    aniso: 16
+    mipBias: -1
+    wrapMode: 1
+  nPOTScale: 0
+  lightmap: 0
+  rGBM: 0
+  compressionQuality: 50
+  spriteMode: 2
+  spriteExtrude: 1
+  spriteMeshType: 1
+  alignment: 0
+  spritePivot: {x: .5, y: .5}
+  spriteBorder: {x: 0, y: 0, z: 0, w: 0}
+  spritePixelsToUnits: 100
+  alphaIsTransparency: 1
+  textureType: 8
+  buildTargetSettings: []
+  spriteSheet:
+    sprites:
+    - name: dude_animation_sheet-480x480_0
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_1
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_2
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_3
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_4
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_5
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_6
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 410
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_7
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_8
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_9
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_10
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_11
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_12
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_13
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 340
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_14
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_15
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_16
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_17
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_18
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_19
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_20
+      rect:
+        serializedVersion: 2
+        x: 372
+        y: 270
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_21
+      rect:
+        serializedVersion: 2
+        x: 0
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_22
+      rect:
+        serializedVersion: 2
+        x: 62
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_23
+      rect:
+        serializedVersion: 2
+        x: 124
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_24
+      rect:
+        serializedVersion: 2
+        x: 186
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_25
+      rect:
+        serializedVersion: 2
+        x: 248
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+    - name: dude_animation_sheet-480x480_26
+      rect:
+        serializedVersion: 2
+        x: 310
+        y: 200
+        width: 62
+        height: 70
+      alignment: 0
+      pivot: {x: 0, y: 0}
+      border: {x: 0, y: 0, z: 0, w: 0}
+  spritePackingTag: 
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
