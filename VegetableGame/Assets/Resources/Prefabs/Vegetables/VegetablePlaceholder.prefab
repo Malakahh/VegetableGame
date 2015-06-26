@@ -9,7 +9,7 @@ GameObject:
   m_Component:
   - 4: {fileID: 487644}
   - 212: {fileID: 21272202}
-  - 114: {fileID: 11483428}
+  - 114: {fileID: 11475456}
   m_Layer: 0
   m_Name: VegetablePlaceholder
   m_TagString: Untagged
@@ -29,7 +29,7 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
---- !u!114 &11483428
+--- !u!114 &11475456
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -37,7 +37,7 @@ MonoBehaviour:
   m_GameObject: {fileID: 128546}
   m_Enabled: 1
   m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: fe64d0568efc16a46963ffeda9ef1470, type: 3}
+  m_Script: {fileID: 11500000, guid: 7402edb6511d9b147855fde7be8a4ad2, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
 --- !u!212 &21272202
