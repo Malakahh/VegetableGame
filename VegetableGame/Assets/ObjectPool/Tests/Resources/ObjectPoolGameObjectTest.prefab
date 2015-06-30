@@ -22,13 +22,17 @@ GameObject:
   - 114: {fileID: 11470720}
   - 114: {fileID: 11411248}
   - 114: {fileID: 11482362}
+  - 114: {fileID: 11465936}
+  - 114: {fileID: 11426684}
+  - 114: {fileID: 11433454}
+  - 114: {fileID: 11401424}
   m_Layer: 0
   m_Name: ObjectPoolGameObjectTest
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!4 &430892
 Transform:
   m_ObjectHideFlags: 1
@@ -41,6 +45,18 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_RootOrder: 0
+--- !u!114 &11401424
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2a1484c673a2744814b584a939a642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: TestData
 --- !u!114 &11411248
 MonoBehaviour:
   m_ObjectHideFlags: 1
@@ -78,6 +94,30 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   Key: TestData
 --- !u!114 &11423712
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2a1484c673a2744814b584a939a642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: TestData
+--- !u!114 &11426684
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2a1484c673a2744814b584a939a642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: TestData
+--- !u!114 &11433454
 MonoBehaviour:
   m_ObjectHideFlags: 1
   m_PrefabParentObject: {fileID: 0}
@@ -136,6 +176,18 @@ MonoBehaviour:
   m_Script: {fileID: 11500000, guid: 69c6b4378d3a63842b1971f728e71c89, type: 3}
   m_Name: 
   m_EditorClassIdentifier: 
+--- !u!114 &11465936
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 156356}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 9f2a1484c673a2744814b584a939a642, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  Key: TestData
 --- !u!114 &11469922
 MonoBehaviour:
   m_ObjectHideFlags: 1
