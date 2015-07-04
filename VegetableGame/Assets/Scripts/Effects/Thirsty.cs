@@ -9,4 +9,9 @@ public class Thirsty : Effect {
         this.strokes.Add(KeyCode.RightArrow);
         this.strokes.Add(KeyCode.UpArrow);
     }
+
+    public override void ReleaseToObjectPool()
+    {
+        ObjectPool.Release<Thirsty>(this);
+    }
 }

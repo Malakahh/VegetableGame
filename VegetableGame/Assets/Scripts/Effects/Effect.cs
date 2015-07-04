@@ -2,22 +2,24 @@
 using System.Collections.Generic;
 
 public abstract class Effect : MonoBehaviour {
-    public Material IconMaterial;
-    protected List<KeyCode> strokes = new List<KeyCode>();
+    public delegate void EffectDelegate(VegetableSlot slot);
+    public static event EffectDelegate OnEffectSuccess;
+
+    public VegetableSlot AssignedSlot;
+    public List<KeyCode> strokes = new List<KeyCode>();
     protected int checkIncrementer = 0;
+    public abstract void ReleaseToObjectPool();
 
     public virtual void Check()
     {
-        if (checkIncrementer < strokes.Count)
+        if (checkIncrementer < strokes.Count && Input.GetKey(strokes[checkIncrementer]))
         {
-            if (Input.GetKey(strokes[checkIncrementer]))
-            {
-                checkIncrementer++;
+            checkIncrementer++;
 
-                if (checkIncrementer == strokes.Count)
-                {
-                    Debug.Log("Key Combination accepted!");
-                }
+            if (checkIncrementer == strokes.Count && OnEffectSuccess != null)
+            {
+                checkIncrementer = 0;
+                OnEffectSuccess(AssignedSlot);
             }
         }
     }

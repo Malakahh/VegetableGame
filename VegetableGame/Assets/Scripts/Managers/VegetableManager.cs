@@ -3,14 +3,14 @@ using System.Collections.Generic;
 
 public class VegetableManager : MonoBehaviour {
     public static VegetableManager Instance;
-    public delegate void OnVegetableManagerInitFinishedHandler();
-    public event OnVegetableManagerInitFinishedHandler OnVegetableManagerInitFinished;
 
     public List<GameObject> PossibleVegetables = new List<GameObject>();
     public float VegetableSpread = 0.2f;
 
-    GameObject ground;
+    [HideInInspector]
     public List<VegetableSlot> slots = new List<VegetableSlot>();
+
+    GameObject ground;
 
     void Awake()
     {
@@ -25,19 +25,11 @@ public class VegetableManager : MonoBehaviour {
         ground = GameObject.FindGameObjectWithTag("Ground");
         SpawnSlots();
         SpawnVegetables();
-        EffectManager.Instance.Test();
+        EffectManager.Instance.Begin();
     }
 
     void SpawnSlots()
     {
-        /*VegetableSlot tempSlot = ObjectPool.Acquire<VegetableSlot>();
-        float bound = ground.transform.localScale.x * 0.5f - tempSlot.transform.localScale.x * 0.5f;
-        float step = tempSlot.transform.localScale.x + VegetableSpread;
-        float offset = ((bound * 2) % step) * 0.5f;
-        Vector3 pos = Vector3.zero;
-        ObjectPool.Release<VegetableSlot>(tempSlot);
-        */
-
         float bound = ground.transform.localScale.x * 0.5f - 0.5f;
         float step = VegetableSpread + 1;
         float offset = ((bound * 2) % step) * 0.5f;
@@ -49,8 +41,6 @@ public class VegetableManager : MonoBehaviour {
             s.transform.position = new Vector3(x, 0, 0);
             slots.Add(s);
             s.gameObject.SetActive(true);
-
-            EffectManager.Instance.hi = s;
         }
     }
 
